@@ -702,6 +702,9 @@ aidl_interface {
         java: {
             enabled: false,
         },
+        rust: {
+            enabled: false,
+        },
     },
     imports: [
         "vendor.oplus.hardware.subsys-V5",
@@ -728,7 +731,7 @@ aidl_interface {
             enabled: true,
         },
         java: {
-            enabled: false,
+            enabled: true,
         },
     },
     versions_with_info: [
@@ -769,7 +772,7 @@ aidl_interface {
             enabled: true,
         },
         java: {
-            enabled: false,
+            enabled: true,
         },
     },
     imports: [
